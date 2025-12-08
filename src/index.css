@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+}
+.content{
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.brand{
+    font-size: 12px;
+}
+.btn{
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+.rating{
+    font-size: 12px;
+}
+.price{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
