@@ -15,7 +15,7 @@ const dispatch=useDispatch();
  
     <Routes>
       <Route path="/" element={ <Product/>}></Route>
-      <Route path="/cart" element={<CartList />}></Route>
+      <Route path="/cart" element={ <CartList/>}></Route>
       
     </Routes>  
   </BrowserRouter>
