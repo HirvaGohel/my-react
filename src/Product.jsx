@@ -15,7 +15,6 @@ const Product = () => {
     dispatch(fetchProducts())
   }, [])
 
-
   return (
     <div className="grid">
       {
